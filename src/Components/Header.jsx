@@ -17,9 +17,11 @@ export default function Header() {
         if(window.localStorage.getItem('address')) {
             setAddress(window.localStorage.getItem('address'));
         } else {
-            const session = window.localStorage.getItem('walletconnect');
-            const parsedSession = JSON.parse(session);
-            setAddress(parsedSession.accounts[0]);
+            if(connector.connected) {
+                const session = window.localStorage.getItem('walletconnect');
+                const parsedSession = JSON.parse(session);
+                setAddress(parsedSession.accounts[0]);
+            }
         }
     }, []);
 
