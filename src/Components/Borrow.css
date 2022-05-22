@@ -1,12 +1,14 @@
 .borrow {
     display: flex;
     padding: 0.5rem 1rem;
-    border-bottom: 1px solid #e6e6e6;
-    margin: 20px 150px 10px 80px;
 }
 
 .borrow-header {
     margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+    width: 92%;
+    position: relative;
+    text-align: center;
 }
 
 .borrow a {
