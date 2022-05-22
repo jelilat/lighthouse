@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 20px 150px 10px 80px;
+}
+
+.header button {
+    background-color: #5897d7;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}

@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import logo from './assets/lighthouse.png';
+import wolf from './assets/wolf.png';
 import './App.css';
+import Header from './Components/Header';
+import Borrow from './Components/Borrow';
+import Lend from './Components/Lend';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="hero">
+        <div className="hero-text">
+          <h1 style={{fontSize: '3em'}}>Opensource rental marketplace and liquidity protocol</h1>
+          <h3 style={{fontSize: '1.5em'}}>Earn passive income from your assets, rent in-game NFTs, and access loans from liquidity providers.</h3>
+          <button>Borrow</button>
+          <button>Lend</button>
+        </div>
+        <div className="hero-image">
+          <img src={wolf} alt="wolf" />
+        </div>
+      </div>
+      <Borrow />
+      <Lend />
     </div>
   );
 }
