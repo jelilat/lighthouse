@@ -39,3 +39,11 @@ input {
     width: 100%;
     margin: auto
 }
+
+a button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1em;
+}

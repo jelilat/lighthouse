@@ -13,8 +13,8 @@ function App() {
         <div className="hero-text">
           <h1 style={{fontSize: '3em'}}>Opensource rental marketplace and liquidity protocol</h1>
           <h3 style={{fontSize: '1.5em'}}>Earn passive income from your assets, rent in-game NFTs, and access loans from liquidity providers.</h3>
-          <button>Borrow</button>
-          <button>Lend</button>
+          <button><a href="#borrow">Borrow</a></button>
+          <button><a href="#lend">Lend</a></button>
         </div>
         <div className="hero-image">
           <img src={wolf} alt="wolf" />

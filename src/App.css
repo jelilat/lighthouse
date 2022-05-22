@@ -42,3 +42,8 @@
   max-width: 400px;
   float: right;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
