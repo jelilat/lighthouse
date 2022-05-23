@@ -16,7 +16,8 @@ So, she takes out a loan from Bob, a liquidity provider. In exchange, the liquid
 
 If Alice agrees to pay the loan over the next 20 days, she will only be required to give Bob 50% of her earnings for the next 20 days.
 
-The amount of loan Alice is eligible to take out is determine by the average amount of money she makes from her rentals per day.
+The amount of loan Alice is eligible to take out is determined by the average amount of money she makes from her rentals per day.
 
 By providing this kind of liquidity, Bob can make a significant profit and at the same time, be exposed to a large amount of risk.
 
+If there's a significant market uptick, Bob could double the investment. However, if the sales do not pick up, he may lose some part of his investment.
